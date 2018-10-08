@@ -48,3 +48,7 @@ f.apply("Hello world");
 This demonstrates the ability to represent functions / methods as objects.
 Thus, you can pass `f` as an argument into another function.
 This is how Java can do higher-order functions.
+
+5. Construct a higher-order function that takes a `Student` and returns true based on the criteria in (1).
+Use it in your functional approach in (2).
+How does this help the structure of your code?
