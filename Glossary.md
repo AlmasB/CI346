@@ -4,12 +4,12 @@
 2. [Concurrency](#concurrency)
 3. [Client-server computing](#client-server-computing)
 
-
 Programming Languages
 ---
 
-**Object-oriented Paradigm** 
+**Object-oriented Paradigm**
 
+Object-oriented programming solves computing concepts and problems by modelling objects. Objects have states and behaviours; for example, a person has a certain hair colour (state) and this person can change the colour(behaviour). Inheritance is part of the core functionality of objects in OO languages. Classes can have subclasses, which enables the subclass to inherit the methods and fields of its superclass. The core concept of inheritance is simple, but it can be used to model complex systems.  Objects are a demonstration a core tenant of OOP, encapsulation. This mechanism is used to enclose methods and state in bundles and to restrict access to them. 
 
 Using _Java_ as the example language
 ```java
