@@ -53,6 +53,15 @@ main = print (fib 10)
 ```
 -TODO: expand on this
 
+
+
+**Functional Paradigm vs Object-Oriented**
+
+**SOLID Principles**
+
+**Design Patterns**
+
+
 Concurrency
 ---
 
@@ -71,6 +80,9 @@ Thread t = new Thread(() -> {
 t.start();
 ```
 
+**Concurrency Advantages**
+
+**Concurrency Issues and Solutions**
 
 
 Client-server Computing
