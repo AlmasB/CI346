@@ -1,13 +1,13 @@
-## Easter Codefest Gameplay
+## Codefest Gameplay
 
-This page defines general gameplay rules for the Easter Codefest game. Certain minor points are omitted.
+This page defines general gameplay rules for the Codefest game. Certain minor points are omitted.
 
-The game is turn-based. On each turn each character will be asked to make a move. There are three types of moves: `ATTACK, SKILL, BLOCK`. ATTACK beats SKILL, SKILL beats BLOCK, BLOCK beats ATTACK. Each team will build a simple AI for their character based on some information from the opponent and existing moves. Once both characters make their moves, the winning character will deal damage to the losing character in that turn. The damage is calculated based on the winning character attributes. If both characters pick the same move, then each character rolls dice. If both roll the same value, the turn ends. Once one character's hp drops below 0, the game ends.
+The game is turn-based. On each turn each character will be asked to make a move. There are three types of moves: `ATTACK, SKILL, BLOCK`. ATTACK beats SKILL, SKILL beats BLOCK, BLOCK beats ATTACK. Each team will build a simple AI for their character based on some information from the opponent and existing moves. Once both characters make their moves, the winning character will deal damage to the losing character in that turn. The damage is calculated based on the winning character attributes. If both characters pick the same move, the turn ends with no damage to either characters. Once one character's hp drops below 0, the game ends.
 
 
 ### Attributes
 
-Each character has 100 hp and the following starting attributes:
+Each character has 150 hp and the following starting attributes:
 
 ```
 private int strength = 1;
@@ -16,7 +16,7 @@ private int intellect = 1;
 private int luck = 5;
 ```
 
-Each character is given 30 points to invest in any of the 4 attributes. Strength greatly increases ATTACK damage, vitality greatly increases BLOCK damage and intellect greatly increases SKILL damage. Luck slightly increases damage with all moves. Luck also increases the favourable outcome from the dice roll, i.e. when both characters pick the same move.
+Each character is given 35 points to invest in any of the 4 attributes. Strength greatly increases ATTACK damage, vitality greatly increases BLOCK damage and intellect greatly increases SKILL damage. Luck slightly increases damage with all moves. The attributes can be reset and reallocated at any time.
 
 
 ### Critical
